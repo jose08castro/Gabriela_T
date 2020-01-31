@@ -1,0 +1,36 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #ddcc77;
+    background-color: #44aa99;
+    text-align: center;
+}
+
+.letra {
+    font-size: 4em;
+    height: 2.5em;
+}
+
+.vocal {
+    color: #882255;
+}
+
+p:hover {
+    color: #332288;
+}
+
+p {
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 991px) {
+    .letra {
+        font-size: 3.2em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .letra {
+        font-size: 2.5em;
+    }
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Proyecto Tesis Gabriela</title>
+
+    <meta name="author" content="José Evelio Castro Quesada">
+    <meta name="description" content="El presente proyecto es de Tesis">
+
+    <link rel="icon" href="src/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="src/css/principal.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imgFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <script>
+            function play(par1) {
+                var audio = document.getElementById(par1);
+                audio.play();
+            }
+
+            function stop(par) {
+                var audio = document.getElementById(par);
+                audio.pause();
+                audio.currentTime = 0;
+            }
+        </script>
+
+        <h1>Tesis</h1>
+        <div class="row">
+            <div class="letra vocal col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_A')" value="PLAY" onmouseover="play('letra_A')">A a</p>
+                <audio id='letra_A' src="./src/audio/letra_A.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_B')" onmouseover="play('letra_B')">B b</p>
+                <audio id='letra_B' src="./src/audio/letra_B.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_C')" onmouseover="play('letra_C')">C c</p>
+                <audio id='letra_C' src="./src/audio/letra_C.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_Ch')" onmouseover="play('letra_Ch')">Ch ch</p>
+                <audio id='letra_Ch' src="./src/audio/letra_Ch.mp3"></audio>
+            </div>
+        </div>
+        <div class="row">
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_D')" onmouseover="play('letra_D')">D d</p>
+                <audio id='letra_D' src="./src/audio/letra_D.mp3"></audio>
+            </div>
+            <div class="letra vocal col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_E')" onmouseover="play('letra_E')">E e</p>
+                <audio id='letra_E' src="./src/audio/letra_E.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_F')" onmouseover="play('letra_F')">F f</p>
+                <audio id='letra_F' src="./src/audio/letra_F.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_G')" onmouseover="play('letra_G')">G g</p>
+                <audio id='letra_G' src="./src/audio/letra_G.mp3"></audio>
+            </div>
+        </div>
+        <div class="row">
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_H')" onmouseover="play('letra_H')">H h</p>
+                <audio id='letra_H' src="./src/audio/letra_H.mp3"></audio>
+            </div>
+            <div class="letra vocal col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_I')" onmouseover="play('letra_I')">I i</p>
+                <audio id='letra_I' src="./src/audio/letra_I.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_J')" onmouseover="play('letra_J')">J j</p>
+                <audio id='letra_J' src="./src/audio/letra_J.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_K')" onmouseover="play('letra_K')">K k</p>
+                <audio id='letra_K' src="./src/audio/letra_K.mp3"></audio>
+            </div>
+        </div>
+        <div class="row">
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_L')" onmouseover="play('letra_L')">L l</p>
+                <audio id='letra_L' src="./src/audio/letra_L.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_Ll')" onmouseover="play('letra_Ll')">Ll ll</p>
+                <audio id='letra_Ll' src="./src/audio/letra_Ll.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_M')" onmouseover="play('letra_M')">M m</p>
+                <audio id='letra_M' src="./src/audio/letra_M.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_N')" onmouseover="play('letra_N')">N n</p>
+                <audio id='letra_N' src="./src/audio/letra_N.mp3"></audio>
+            </div>
+        </div>
+        <div class="row">
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_Ñ')" onmouseover="play('letra_Ñ')">Ñ n</p>
+                <audio id='letra_Ñ' src="./src/audio/letra_Ñ.mp3"></audio>
+            </div>
+            <div class="letra vocal col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_O')" onmouseover="play('letra_O')">O o</p>
+                <audio id='letra_O' src="./src/audio/letra_O.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_P')" onmouseover="play('letra_P')">P p</p>
+                <audio id='letra_P' src="./src/audio/letra_P.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_Q')" onmouseover="play('letra_Q')">Q q</p>
+                <audio id='letra_Q' src="./src/audio/letra_Q.mp3"></audio>
+            </div>
+        </div>
+        <div class="row">
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_R')" onmouseover="play('letra_R')">R r</p>
+                <audio id='letra_R' src="./src/audio/letra_R.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_S')" onmouseover="play('letra_S')">S s</p>
+                <audio id='letra_S' src="./src/audio/letra_S.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_T')" onmouseover="play('letra_T')">T t</p>
+                <audio id='letra_T' src="./src/audio/letra_T.mp3"></audio>
+            </div>
+            <div class="letra vocal col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_U')" onmouseover="play('letra_U')">U u</p>
+                <audio id='letra_U' src="./src/audio/letra_U.mp3"></audio>
+            </div>
+        </div>
+        <div class="row">
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_V')" onmouseover="play('letra_V')">V v</p>
+                <audio id='letra_V' src="./src/audio/letra_V.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_W')" onmouseover="play('letra_W')">W w</p>
+                <audio id='letra_W' src="./src/audio/letra_W.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_X')" onmouseover="play('letra_X')">X x</p>
+                <audio id='letra_X' src="./src/audio/letra_X.mp3"></audio>
+            </div>
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_Y')" onmouseover="play('letra_Y')">Y y</p>
+                <audio id='letra_Y' src="./src/audio/letra_Y.mp3"></audio>
+            </div>
+        </div>
+        <div class="row">
+            <div class="letra col-sm-3 d-flex align-items-center justify-content-center">
+                <p onmouseout="stop('letra_Z')" onmouseover="play('letra_Z')">Z z</p>
+                <audio id='letra_Z' src="./src/audio/letra_Z.mp3"></audio>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
